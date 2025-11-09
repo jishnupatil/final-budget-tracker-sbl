@@ -14,9 +14,10 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://your-app-name.netlify.app'],
+  origin: ['http://localhost:3000', 'https://gentle-puffpuff-091731.netlify.app'],
   credentials: true
 }));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
