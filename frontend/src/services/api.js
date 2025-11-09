@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'https://budget-tracker-mern-2.onrender.com/api';
+const API_URL = 'https://final-budget-tracker-sbl.onrender.com/api';
+
 // Create axios instance
 const api = axios.create({
   baseURL: API_URL,
